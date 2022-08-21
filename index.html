@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css">
+    <title>JavaScript Action Range</title>
+</head>
+<body>
+    <div class="container-fluid d-flex align-items-center justify-content-center flex-column gap-3">
+        <h2 class="text-uppercase text-light text-center">Calculation Practice</h2>
+        <div class="range__box py-2 px-4 rounded rounded-5 d-flex gap-3 align-items-center justify-content-center">
+            <input type="range" name="range" id="range" min="0" max="100" value="0">
+            <span class="range-number px-3 text-light rounded rounded-4">
+                <span id="range-number">0</span>$
+            </span>
+        </div>
+        <div class="min__max-value d-flex justify-content-between">
+            <span>0</span>
+            <p><span id="value-number"></span> value</p>
+            <span id="range-number">100</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
